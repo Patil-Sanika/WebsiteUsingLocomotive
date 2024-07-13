@@ -7,8 +7,6 @@ This project showcases a creative professionals' website dedicated to cultural a
 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
 
 ## Features
 
