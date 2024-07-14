@@ -1,3 +1,4 @@
+// Intro Video player 
 function loading() {
     let tl = gsap.timeline()
     tl.to("#yellow1", {
@@ -26,16 +27,18 @@ function loading() {
 }
 loading()
 
-
+// LocomotiveScroll 
 const scroll = new LocomotiveScroll({
     el: document.querySelector('#main'),
     smooth: true
 })
 
+// LocomotiveScroll Up 
 document.querySelector("#footer h2").addEventListener("click", () => {
     scroll.scrollTo(0)
 })
 
+// changing backgroundImages on hover
 let elems = document.querySelectorAll(".elem")
 let main = document.querySelector("#main")
 elems.forEach(function (ele) {
